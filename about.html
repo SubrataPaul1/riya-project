@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About - My Favourite Things</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Karma" />
+    <style>
+      body {
+        font-family: "Karma", sans-serif;
+        background: linear-gradient(120deg, #6a89a7 0%, #bdddfc 100%);
+        min-height: 100vh;
+        margin: 0;
+      }
+      header {
+        width: 100%;
+        background: #384959;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(56, 73, 89, 0.12);
+      }
+      .header-inner {
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 32px;
+      }
+      .header-title {
+        font-size: 2em;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      nav {
+        display: flex;
+        gap: 24px;
+      }
+      nav a {
+        color: #bdddfc;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 8px 18px;
+        border-radius: 20px;
+        transition: background 0.2s;
+      }
+      nav a:hover {
+        background: #6a89a7;
+        color: #fff !important;
+      }
+      @media (max-width: 700px) {
+        .header-inner {
+          flex-direction: column !important;
+          gap: 10px;
+        }
+        nav a {
+          font-size: 1em !important;
+          padding: 6px 10px !important;
+        }
+      }
+      .about-container {
+        margin-top: 130px;
+        max-width: 700px;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 2px 12px rgba(56, 73, 89, 0.1);
+        padding: 40px 32px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .about-container h2 {
+        color: #384959;
+        margin-bottom: 18px;
+      }
+      .about-container p {
+        color: #384959;
+        font-size: 1.1em;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="header-title">My Favourite Things</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <div class="about-container">
+      <h2>About</h2>
+      <p>
+        Welcome to <strong>My Favourite Things</strong>! This site is a personal
+        collection of the things, places, and moments that bring joy and
+        inspiration. Whether it's beautiful nature, delicious food, or memorable
+        experiences, this space is dedicated to sharing and celebrating what
+        makes life special.<br /><br />
+        Feel free to explore, connect, and share your own favourite things with
+        us!
+      </p>
+    </div>
+  </body>
+</html>
